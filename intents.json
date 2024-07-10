@@ -1,0 +1,240 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "buenas noches",
+                "qué tal",
+                "hola, como estás",
+                "hola, qué tal",
+                "saludos",
+                "qué onda",
+                "hey"
+            ],
+            "responses": [
+                "Hola! ¿Cómo puedo ayudarte?",
+                "Hola! ¿En qué puedo asistirte?",
+                "Hola, ¿cómo estás?",
+                "Hola, ¿qué tal?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adiós",
+                "hasta luego",
+                "nos vemos",
+                "chau",
+                "me voy",
+                "hasta pronto",
+                "hasta la próxima",
+                "cuídate"
+            ],
+            "responses": [
+                "¡Nos vemos! Que tengas un buen día.",
+                "Hasta luego. Cuídate",
+                "Adiós! Que tengas un buen día",
+                "Hasta la próxima"
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "te lo agradezco",
+                "gracias por tu ayuda",
+                "muy amable de tu parte",
+                "gracias, muy útil"
+            ],
+            "responses": [
+                "De nada, ¡siempre estoy aquí para ayudar!",
+                "¡No hay de qué!",
+                "Es un placer ayudar",
+                "¡Con gusto!"
+            ]
+        },
+        {
+            "tag": "estado",
+            "patterns": [
+                "cómo estás",
+                "qué tal",
+                "cómo te va",
+                "cómo te sientes",
+                "todo bien"
+            ],
+            "responses": [
+                "Estoy bien, gracias. ¿Y tú?",
+                "Todo bien, gracias por preguntar. ¿Y tú?",
+                "Me siento genial, ¿y tú?",
+                "Estoy bien, ¿cómo te sientes tú?"
+            ]
+        },
+        {
+            "tag": "sentimientos_buenos",
+            "patterns": [
+                "me siento bien",
+                "estoy feliz",
+                "todo está perfecto",
+                "me va bien",
+                "me siento genial",
+                "todo marcha bien"
+            ],
+            "responses": [
+                "¡Me alegra escuchar eso!",
+                "¡Eso es genial!",
+                "¡Qué bien que estés feliz!",
+                "¡Me alegra saberlo!"
+            ]
+        },
+        {
+            "tag": "sentimientos_malos",
+            "patterns": [
+                "estoy triste",
+                "me siento mal",
+                "no estoy bien",
+                "me va mal",
+                "me siento deprimido",
+                "todo va mal"
+            ],
+            "responses": [
+                "¡Ánimo! Todo estará bien.",
+                "Lo siento mucho, espero que te sientas mejor pronto.",
+                "Lamento escuchar eso, espero que las cosas mejoren.",
+                "¡No te preocupes! Las cosas mejorarán."
+            ]
+        },
+        {
+            "tag": "informacion",
+            "patterns": [
+                "cuéntame algo",
+                "dime algo interesante",
+                "qué sabes",
+                "qué puedes hacer",
+                "háblame de ti",
+                "Quién eres",
+                "Cuéntame de ti"
+            ],
+            "responses": [
+                "Soy un chatbot diseñado para ayudarte. ¿En qué puedo asistirte?",
+                "Puedo responder preguntas y mantener conversaciones. ¿Qué te gustaría saber?",
+                "Estoy aquí para asistirte con cualquier duda o conversación. ¿En qué te puedo ayudar?"
+            ]
+        },
+        {
+            "tag": "chistes",
+            "patterns": [
+                "cuéntame un chiste",
+                "dime algo gracioso",
+                "hazme reír",
+                "quiero escuchar un chiste"
+            ],
+            "responses": [
+                "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+                "¿Por qué los esqueletos no pelean entre ellos? Porque no tienen agallas.",
+                "¿Qué le dice una iguana a su hermana gemela? Somos iguanitas."
+            ]
+        },
+        {
+            "tag": "clima",
+            "patterns": [
+                "como está el clima",
+                "qué tiempo hace",
+                "va a llover hoy",
+                "hace calor",
+                "hace frío"
+            ],
+            "responses": [
+                "No estoy seguro del clima actual, pero puedes revisar en una aplicación de clima.",
+                "El clima cambia constantemente, ¡asegúrate de llevar un paraguas si parece que va a llover!",
+                "Puede que haga calor o frío, es mejor revisar el pronóstico para estar seguro."
+            ]
+        },
+        {
+            "tag": "aficiones",
+            "patterns": [
+                "cuáles son tus aficiones",
+                "qué te gusta hacer",
+                "tienes algún pasatiempo",
+                "qué te divierte"
+            ],
+            "responses": [
+                "Como soy un chatbot, no tengo aficiones como los humanos, pero me encanta conversar contigo.",
+                "Mi pasatiempo es ayudar a las personas con sus preguntas y mantener conversaciones.",
+                "No tengo aficiones físicas, pero disfruto aprendiendo nuevas cosas para ayudarte mejor."
+            ]
+        },
+        {
+            "tag": "edad",
+            "patterns": [
+                "cuántos años tienes",
+                "qué edad tienes",
+                "cuál es tu edad",
+                "eres joven",
+                "eres viejo"
+            ],
+            "responses": [
+                "No tengo una edad en el sentido tradicional. Soy un programa de computadora.",
+                "No envejezco como los humanos, pero siempre estoy aquí para ayudarte.",
+                "No tengo edad, soy un chatbot que siempre está dispuesto a ayudarte."
+            ]
+        },
+        {
+            "tag": "nombre",
+            "patterns": [
+                "cuál es tu nombre",
+                "cómo te llamas",
+                "tienes nombre",
+                "cuál es tu apodo",
+                "cómo te dicen"
+            ],
+            "responses": [
+                "Me llamo Chatbot, ¿y tú?",
+                "Puedes llamarme Chatbot. ¿Cuál es tu nombre?",
+                "Soy un chatbot y estoy aquí para ayudarte. ¿Cuál es tu nombre?"
+            ]
+        },
+        {
+            "tag": "lugar",
+            "patterns": [
+                "dónde estás",
+                "de dónde eres",
+                "dónde vives",
+                "estás en algún lugar",
+                "dónde te encuentras"
+            ],
+            "responses": [
+                "Estoy en la nube, siempre disponible para ayudarte.",
+                "No tengo una ubicación física, estoy aquí en el ciberespacio.",
+                "No tengo un lugar físico, estoy en la nube para ayudarte en cualquier momento."
+            ]
+        },
+        {
+            "tag": "ocupacion",
+            "patterns": [
+                "qué haces",
+                "cuál es tu trabajo",
+                "a qué te dedicas",
+                "cuál es tu ocupación",
+                "qué haces para vivir"
+            ],
+            "responses": [
+                "Soy un chatbot y mi trabajo es ayudarte.",
+                "Me dedico a asistir a las personas respondiendo sus preguntas.",
+                "Mi ocupación es ser un chatbot y estar disponible para ayudarte."
+            ]
+        },
+        {
+            "tag": "universidad",
+            "patterns": [
+                "mándale un saludo a la clase"
+            ],
+            "responses": [
+                "Un saludo para la clase de Sistemas Inteligentes, es todo un gusto"
+            ]
+        }
+    ]
+}
